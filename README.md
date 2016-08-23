@@ -8,6 +8,11 @@ notably, it doubles the lengths of VARCHARs due to a unicode size problem we
 had, places indexes on all foreign keys, and presumes you're using Django
 for column typing purposes.
 
+Banking-Partner addition
+------------------------
+
+Also replace `0000-00-00` dates with `NULL`.
+
 How to use
 ----------
 
